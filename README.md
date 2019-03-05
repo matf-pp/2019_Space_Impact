@@ -6,4 +6,7 @@ Igrica se bazira na pomerajima gore-dole i pucanjem na nailazece neprijateljske 
 
 Izvrsni fajl napravljen je za operativni sistem Windows.
 
-Autori: -Nikola Damjanovic,390/2015,nikokadamjan@live.com -Milos Nikolic,251/2015,milos.nik102@gmail.com -David Aksovic,360/15,davidaksovic@outlook.com
+Autori: 
+-Nikola Damjanovic,390/2015,nikoladamjan@live.com 
+-Milos Nikolic,251/2015,milos.nik102@gmail.com 
+-David Aksovic,360/15,davidaksovic@outlook.com
