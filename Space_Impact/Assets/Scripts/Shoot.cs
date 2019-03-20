@@ -28,7 +28,7 @@ public class Shoot : MonoBehaviour
         if (Input.GetButton("Fire1") && currentTime>nextFire)
         {
             nextFire += currentTime;
-            Instantiate(projectile , projectileSpawn.position, Quaternion.identity); //pravi objekat
+            Instantiate(projectile , projectileSpawn.position, Quaternion.AngleAxis(90, Vector3.forward)); //pravi objekat
             nextFire -= currentTime;
             currentTime = 0.0f;
         }

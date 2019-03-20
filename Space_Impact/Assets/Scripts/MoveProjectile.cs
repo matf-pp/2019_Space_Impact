@@ -19,4 +19,9 @@ public class MoveProjectile : MonoBehaviour
     {
         projectile.velocity = new Vector2(1, 0) * moveSpeed; //pomera projektil
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(this.gameObject); // unisti projektil kad udari zid
+    }
 }
