@@ -9,7 +9,7 @@ public class Shoot : MonoBehaviour
     public float nextFire = 1.0f;
     public float currentTime = 0.0f;
 
-    // Start is called before the first frame update
+    // asdaStart is called before the first frame update
     void Start()
     {
         projectileSpawn = this.gameObject.transform;    

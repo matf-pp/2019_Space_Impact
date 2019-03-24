@@ -503,7 +503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111761188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.308, y: 0.039, z: -4.8789062}
+  m_LocalPosition: {x: -16.11, y: -0.07, z: -4.8789062}
   m_LocalScale: {x: -1.2298672, y: 16.156017, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -828,7 +828,8 @@ GameObject:
   - component: {fileID: 1486446813}
   - component: {fileID: 1486446812}
   - component: {fileID: 1486446811}
-  m_Layer: 0
+  - component: {fileID: 1486446815}
+  m_Layer: 11
   m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -920,6 +921,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486446815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486446810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2e26897fa5072f47a44cd738bd5b768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 0}
+  size: {x: 0, y: 10}
+  SecondsBetweenSpawn: 3
+  elapsedTime: 0
+  Enemy: {fileID: 169934110736208499, guid: b5e518edac0bf6941b9f2794d0879fc1, type: 3}
 --- !u!1 &1764074611
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class MoveProjectile : MonoBehaviour
 
     public float moveSpeed = 10.0f;
 
-    // Start is called before the first frame update
+    // Start is callsaded before the first frame update
     void Start()
     {
         projectile = this.gameObject.GetComponent<Rigidbody2D>();

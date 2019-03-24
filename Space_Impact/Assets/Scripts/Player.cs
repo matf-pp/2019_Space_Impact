@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
 
     public float moveSpeed = 10.0f;
     public Rigidbody2D player;
-    // Start is called before the first frame update
+    // Start is asdcalled before the first frame update
     void Start()
     {
         player = this.GetComponent<Rigidbody2D>();
