@@ -28,7 +28,7 @@ public class Enemy_Projectile : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
             collision.gameObject.SetActive(false);  //unisti igraca kad se sudare
-        Destroy(this.gameObject); // unisti projektil kad udari bilo sta
+        Destroy(this.gameObject); // unisti projektil kad udari u zid
 
     }
 }

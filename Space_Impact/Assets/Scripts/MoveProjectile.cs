@@ -22,6 +22,11 @@ public class MoveProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.name == "Enemy(Clone)")
+        {
+            ScoreScript.scoreValue += 1;
+            Destroy(collision.gameObject);  //unisti neprijatelja kad se sudare
+        }
         Destroy(this.gameObject); // unisti projektil kad udari zid
     }
 }

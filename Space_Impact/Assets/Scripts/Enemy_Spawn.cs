@@ -39,19 +39,14 @@ public class Enemy_Spawn : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "RightWall")
-        {
-            Debug.Log("Hit the right wall");
-            changeDirection = true;
-        }
-        if (collision.gameObject.name == "LeftWall")
-        {
-            Debug.Log("Hit the left wall");
-            changeDirection = false;
-
-        }
         if (collision.gameObject.name == "Wall3")
             Destroy(this.gameObject);
+
+        if (collision.gameObject.name == "Player")
+        {
+            collision.gameObject.SetActive(false); 
+            Destroy(this.gameObject);
+        }
     }
 }
 
