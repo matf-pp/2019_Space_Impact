@@ -27,6 +27,19 @@ public class MoveProjectile : MonoBehaviour
             ScoreScript.scoreValue += 1;
             Destroy(collision.gameObject);  //unisti neprijatelja kad se sudare
         }
+
+        if (collision.gameObject.name == "Boss") {
+            BossScript.helth--;
+
+
+            if (BossScript.helth == 0)
+                Destroy(collision.gameObject);
+
+
+        }
+
         Destroy(this.gameObject); // unisti projektil kad udari zid
+
+        
     }
 }

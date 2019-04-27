@@ -1,13 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class BossMove : MonoBehaviour
+public class BossScript : MonoBehaviour
 {
     public Rigidbody2D boss;
     public float moveSpeed = 5.0f;
     public bool changeDirection = false;
-
+    public static int helth= 3;
 
 
     // Start is called before the first frame update
@@ -47,5 +45,6 @@ public class BossMove : MonoBehaviour
         { 
             changeDirection = false;
         }
+        
     }
 }
