@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 {
 
     public float moveSpeed = 10.0f;
-    public Rigidbody2D player;
+    public static Rigidbody2D player;
     // Start is asdcalled before the first frame update
     void Start()
     {

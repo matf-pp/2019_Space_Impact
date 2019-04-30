@@ -36,6 +36,8 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
+        ScoreScript.scoreValue = 0;
+        BossScript.health = 20;
         Time.timeScale = 1f;
         SceneManager.LoadScene("Menu");
     }

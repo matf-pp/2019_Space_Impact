@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Enemy_Spawn : MonoBehaviour
 {
@@ -21,8 +19,6 @@ public class Enemy_Spawn : MonoBehaviour
     void Update()
     {
         moveEnemy();
-
-        
     }
 
     public void moveEnemy()

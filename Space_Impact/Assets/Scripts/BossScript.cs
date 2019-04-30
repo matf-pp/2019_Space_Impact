@@ -5,8 +5,7 @@ public class BossScript : MonoBehaviour
     public Rigidbody2D boss;
     public float moveSpeed = 5.0f;
     public bool changeDirection = false;
-    public static int helth= 3;
-
+    public static int health= 1;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +17,10 @@ public class BossScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (health == 0) {
+            this.gameObject.SetActive(false);
+        }
         moveBoss();
-
-
     }
 
     public void moveBoss()

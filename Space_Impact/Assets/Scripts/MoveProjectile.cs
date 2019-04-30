@@ -29,13 +29,7 @@ public class MoveProjectile : MonoBehaviour
         }
 
         if (collision.gameObject.name == "Boss") {
-            BossScript.helth--;
-
-
-            if (BossScript.helth == 0)
-                Destroy(collision.gameObject);
-
-
+            BossScript.health--;
         }
 
         Destroy(this.gameObject); // unisti projektil kad udari zid
