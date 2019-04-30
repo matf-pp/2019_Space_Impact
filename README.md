@@ -1,4 +1,4 @@
-Space Impact
+# Space_Impact
 
 Inspiraciju za igricu uzimamo iz originalne igrice za mobilni telefon Nokia 3310 pod nazivom "Space Impact".
 
