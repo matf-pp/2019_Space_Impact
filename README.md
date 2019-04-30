@@ -6,7 +6,7 @@ Igrica se bazira na pomerajima Vaseg svemirskog broda gore,dole,napred,nazad i p
 
 Izvrsni fajl napravljen je za operativni sistem Windows. Sama igrice je pravljena u jeziku C# zbog njegove objektno-orjentisane paradigme i koristi Unity engine za graficki prikaz.
 
-Autori: 
+## Autori
 -Nikola Damjanovic,390/2015,nikoladamjan@live.com 
 -Milos Nikolic,251/2015,milos.nik102@gmail.com 
 -David Aksovic,360/2015,davidaksovic@outlook.com
