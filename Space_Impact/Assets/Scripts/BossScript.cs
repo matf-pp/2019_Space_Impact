@@ -5,7 +5,7 @@ public class BossScript : MonoBehaviour
     public Rigidbody2D boss;
     public float moveSpeed = 5.0f;
     public bool changeDirection = false;
-    public static int health= 1;
+    public static int health= 15;
 
     // Start is called before the first frame update
     void Start()
