@@ -7,6 +7,10 @@ Igrica se bazira na pomerajima Vaseg svemirskog broda gore,dole,napred,nazad i p
 ## Izvrsni fajl
 Izvrsni fajl napravljen je za operativni sistem Windows i nalazi se u AppFile direktorijumu . Sama igrice je pravljena u jeziku C# zbog njegove objektno-orjentisane paradigme i koristi Unity engine za graficki prikaz.
 
+# Kontrole
+W A S D - za pomeranje <br>
+Levo dugme misa za pucanje
+
 ## Autori
 -Nikola Damjanovic,390/2015,nikoladamjan@live.com 
 -Milos Nikolic,251/2015,milos.nik102@gmail.com 
