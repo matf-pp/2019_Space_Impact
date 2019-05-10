@@ -25,7 +25,7 @@ public class Shoot : MonoBehaviour
     {
         currentTime += Time.deltaTime;
 
-        if (Input.GetButton("Fire1") && currentTime>nextFire)
+        if (Input.GetButton("Jump") && currentTime>nextFire)
         {
             nextFire += currentTime;
             Instantiate(projectile , projectileSpawn.position, Quaternion.AngleAxis(90, Vector3.forward)); //pravi objekat
