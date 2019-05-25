@@ -1,6 +1,6 @@
 Win64
 PlayerPath?
-D:/AppFile/Space_Impact.exe
+D:/Ne DIRAJ/Space_Impact/Releases/Space_Impact.exe
 SceneListBegin?
 Assets/Scenes/Menu.unity
 Assets/Scenes/Scene_001.unity
